@@ -63,32 +63,45 @@ a {
   background-color: #222020;
 }
 
-.main-content__title {
+.title {
   margin-bottom: 30px;
 
   color: #fff;
   font-family: 'Graphik LCG', sans-serif;
 }
 
-.main-content__download {
+.title-black {
+  color: #222020;
+}
+
+.btn {
   padding: 20px;
   display: inline-block;
-  border: 3px solid #2f1ce4;
-
   color: #fff;
+}
+
+.btn-download {
+  border: 3px solid #2f1ce4;
 
   background-color: #2f1ce4;
 }
 
-.main-content__detailed {
-  display: inline-block;
-/*  margin-left: 20px;*/
-  padding: 20px;
+.btn-detailed {
   border: 3px solid #fff;
 
-  color: #fff;
-
   background-color: rgba(0,0,0, .0);
+}
+
+.modules {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.btn-modules {
+  border: 3px solid #2f1ce4;
+
+  color: #2f1ce4;
 }
 
 
@@ -174,4 +187,10 @@ tfoot td {
 
 .tfoot__text {
   color: #2f1ce4;
+}
+
+
+/* Modules.html */
+.child {
+
 }
